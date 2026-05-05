@@ -10,14 +10,9 @@ A lightweight iOS demo project that demonstrates how to add a **show/hide passwo
 - No third-party dependencies
 
 ## How It Works
-
-A `UITextField` extension adds a right-side eye button via `showEyePasswordField()`. Tapping the button toggles `isSecureTextEntry` and switches between the open/closed eye icons.
-
 ```swift
-// In viewDidLoad, call:
 self.txtPassword.showEyePasswordField()
 ```
-
 ## Screenshots
 
 | Password Hidden | Password Visible |
